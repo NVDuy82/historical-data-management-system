@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ControllerDetail">
+    <children>
+        <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0">
+            <children>
+                <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="250.0" styleClass="container">
+                    <children>
+                        <JFXButton fx:id="homeButton" alignment="BASELINE_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#backHome" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #00A2D3; -fx-background-radius: 0px;" text="Trang chủ" textFill="WHITE">
+                            <font>
+                                <Font name="Calibri" size="18.0" />
+                            </font>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                            <graphic>
+                                <ImageView fitHeight="16.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@img/home-icon.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </JFXButton>
+                        <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #525669;" text="Xem thêm" textFill="#bdc5c9">
+                            <font>
+                                <Font name="Ebrima" size="14.0" />
+                            </font>
+                            <padding>
+                                <Insets left="17.0" />
+                            </padding>
+                        </Label>
+                        <ListView fx:id="connectListView" fixedCellSize="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#showConnect" prefHeight="252.0" prefWidth="250.0" styleClass="list-view-connect" />
+                    </children>
+                </VBox>
+                <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="710.0" style="-fx-background-color: WHITE;">
+                    <children>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="710.0" style="-fx-background-color: #efefef;">
+                            <children>
+                                <Label fx:id="nameLabel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" text="name">
+                                    <font>
+                                        <Font name="Calibri Light" size="28.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="8.0" />
+                                    </VBox.margin>
+                                </Label>
+                                <Label fx:id="idLabel" text="id" textFill="#868686">
+                                    <font>
+                                        <Font name="Calibri" size="12.0" />
+                                    </font>
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                </Label>
+                            </children>
+                        </VBox>
+                        <JFXTextArea fx:id="infoText" editable="false" focusColor="WHITE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="710.0" unFocusColor="WHITE" wrapText="true">
+                            <font>
+                                <Font name="Calibri" size="14.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                            <padding>
+                                <Insets bottom="1.0" left="4.0" right="1.0" top="4.0" />
+                            </padding>
+                        </JFXTextArea>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

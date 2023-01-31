@@ -1,0 +1,114 @@
+.parent {
+    -fx-background-color: #fff;
+}
+
+.container {
+    -fx-background-color: #333645;
+}
+
+.box {
+    -fx-border-color: #7C8184;
+    -fx-border-width: 1px 0px 0px 0px;
+}
+
+/*
+    button
+ */
+.btn {
+    -fx-background-color: #627b85;
+    -fx-background-radius: 0px;
+}
+
+.btn:hover {
+    -fx-background-color: #00a2d3;
+}
+
+/*
+    button-menu
+ */
+.button-menu {
+    -fx-background-color: #fff;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #00a2d3;
+}
+
+.button-menu:hover {
+    -fx-background-color: #ccecf6;
+}
+
+/*
+    search-bar
+ */
+.search-bar {
+    -fx-background-color: transparent;
+    -fx-border-color: #cbcbcb;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+/*
+    list-view-search
+ */
+.list-view-result-search {
+    -fx-background-color: #ffffff;
+    -fx-border-width: 0px;
+}
+
+.list-view-result-search:selected {
+    -fx-border-width: 0px;
+}
+
+.list-view-result-search .list-cell {
+    -fx-padding: 0px 100px 0px 30px;
+}
+
+.list-view-result-search .list-cell:hover {
+    -fx-background-color: #bec2c5;
+    -fx-text-fill: #fff;
+}
+
+.list-view-result-search .list-cell:selected {
+    -fx-background-color: #627b85;
+    -fx-text-fill: #ffffff;
+}
+
+/*
+    list-suggestion
+ */
+.list-suggestion {
+    -fx-background-color: #cbcbcb;
+    -fx-border-width: 0px;
+}
+
+.list-suggestion .list-cell:hover {
+    -fx-background-color: #bec2c5;
+}
+
+.list-suggestion .list-cell:selected {
+    -fx-background-color: #627b85;
+    -fx-text-fill: #ffffff;
+}
+
+/*
+    list-view-connect
+ */
+.list-view-connect {
+    -fx-background-color: #333645;
+}
+
+.list-view-connect .list-cell{
+    -fx-background-color: #333645;
+    -fx-border-width: 0px;
+    -fx-text-fill: #7c8184;
+    -fx-padding: 10px 0px 10px 25px;
+}
+
+.list-view-connect .list-cell:hover{
+    -fx-background-color: #525669;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+
+.list-view-connect .list-cell:selected{
+    -fx-background-color: #525669;
+    -fx-text-fill: #fff;
+}
