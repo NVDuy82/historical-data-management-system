@@ -1,6 +1,6 @@
 • history - Viet Nam History - java - oop
 
-# Hệ Thống Quản Lý Dữ Liệu Lịch Sử
+# Hệ Thống Quản Lý Dữ Liệu Lịch Sử (Khám Phá Lịch Sử Việt)
 
 ## Giới thiệu
 Hệ thống quản lý dữ liệu lịch sử giúp người dùng tìm kiếm và hiển thị thông tin về nhân vật, triều đại, sự kiện, lễ hội và di tích từ các nguồn web. Ứng dụng được phát triển bằng Java và JavaFX, mang đến giao diện người dùng thân thiện và dễ sử dụng.
